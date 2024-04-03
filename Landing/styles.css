@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #d73737;
+    color: #fff;
+}
+
+.main-content, .secondary-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Added margin to separate sections */
+}
+
+.cta-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #d73737;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d73737;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #d73737;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Centering the Our Services section */
+.secondary-content {
+    text-align: center;
+}
